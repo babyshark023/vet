@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mars Veteriner Kliniği</title>
+</head>
+<body>
+
+    <!-- Üst Bilgi -->
+    <div class="top-info">
+        <div class="logo">
+            <img src="images/logo.png" alt="Mars Veteriner Kliniği Logo">
+            <span>Mars Veteriner Kliniği</span>
+        </div>
+        <div class="contact">
+            <div class="contact-info">
+                <div class="phone">
+                    <a href="tel:+901234567890"><img src="images/communication.png" alt="Telefon İkonu" class="icon"> 
+                    <span>+90 (505) 727 22 74</span></a>
+                </div>
+                <div class="phone">
+                    <a href="tel:+909876543210"><img src="images/communication.png" alt="Telefon İkonu" class="icon"> 
+                    <span>+90 (539) 959 16 20</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="address">
+            <a href="https://www.google.com/maps?q=Örnekevler,+Mimoza+Sk.+No:2/A,+03030+Afyonkarahisar+Merkez/Afyonkarahisar" target="_blank">
+                <img src="images/location.png" alt="Adres İkonu" class="icon"> 
+                <span>: Örnekevler, Mimoza Sk. No:2/A, 03030 Afyonkarahisar Merkez/Afyonkarahisar</span>
+            </a>
+        </div>
+        <a href="#appointment" class="appointment-btn">RANDEVU AL</a>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">ANA SAYFA</a></li>
+                <li>
+                    <a href="#services">HİZMETLERİMİZ &#9662;</a> <!-- Aşağı bakan ok -->
+                    <div class="dropdown">
+                        <a href="#genel-muayene">Genel Muayene</a>
+                        <div class="separator"></div>
+                        <a href="#asilama">Aşılama</a>
+                        <div class="separator"></div>
+                        <a href="#ameliyat">Ameliyat</a>
+                        <div class="separator"></div>
+                        <a href="#danismanlik">Veteriner Danışmanlık</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#products">ÜRÜNLERİMİZ &#9662;</a> <!-- Aşağı bakan ok -->
+                    <div class="dropdown">
+                        <a href="#kumlar">Kumlar</a>
+                        <div class="separator"></div>
+                        <a href="#mama">Mamalar</a>
+                        <div class="separator"></div>
+                        <a href="#aksesuarlar">Aksesuarlar</a>
+                    </div>
+                </li>
+                <li><a href="#contact">İLETİŞİM</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Ana Sayfa -->
+     
+    <section id="home">
+        <div class="image-container">
+            <svg height="0" width="0">
+                <defs>
+                    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#b2e0b2; stop-opacity:1" />
+                        <stop offset="50%" style="stop-color:#4CAF50; stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#388e3c; stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+            </svg>
+            <h1 class="header-text">EVCİL DOSTUNUZ</h1>
+            <h1 class="header-text2">EMİN ELLERDE</h1>
+            <a href="#appointment" class="appointment-btn2">RANDEVU ve YOL TARİFİ</a> 
+            <img src="images/2.png" alt="Evcil Hayvan 2" class="home-image">
+            <img src="images/1.png" alt="Evcil Hayvan 1" class="home-image">
+           
+        </div>
+        <section id="services">
+            <div class="services-container">
+                <figure class="service-figure">
+                    <img src="images/cat.png" alt="Kedi" class="service-image">
+                    <figcaption>Kedi</figcaption>
+                </figure>
+                <figure class="service-figure">
+                    <img src="images/dog.png" alt="Köpek" class="service-image">
+                    <figcaption>Köpek</figcaption>
+                </figure>
+                <figure class="service-figure">
+                    <img src="images/device.png" alt="Cihazlarımız" class="service-image">
+                    <figcaption>Cihazlarımız</figcaption>
+                </figure>
+                <figure class="service-figure">
+                    <img src="images/product.png" alt="Ürünlerimiz" class="service-image">
+                    <figcaption>Ürünlerimiz</figcaption>
+                </figure>
+                <figure class="service-figure">
+                    <img src="images/petgrooming.png" alt="Pet Grooming" class="service-image">
+                    <figcaption>Pet Grooming</figcaption>
+                </figure>
+                <figure class="service-figure">
+                    <img src="images/service.png" alt="Hizmetlerimiz" class="service-image">
+                    <figcaption>Hizmetlerimiz</figcaption>
+                </figure>
+            </div>
+        </section>
+        <!-- Bilmenizi İsteriz Section -->
+        <section id="about">
+            <div class="about-container">
+                <div class="about-image-container">
+                    <img src="images/7.png" alt="Evcil Dost" class="about-image">
+                    <div class="overlay-text">
+                        <h2>BİLMENİZİ İSTERİZ</h2>
+                        <h3>Evcil Dostlarınız Ekibimizin Bir Parçası</h3>
+                        <p>Torbali Pati Veteriner Kliniği'nde önceliğimiz patili dostlarımızın mutluluğu, sağlığı ve rahatıdır. Hekimlerimiz ve teknikerlerimiz yürütülen sağlık, bakım ve diğer süreçlerde dostlarımızın konforunu, mutluluğunu ön planda tutar. Sağlık süreçlerinde oluşabilecek komplikasyonları engellemek için gerekli önemleri alır ve sizi bilgilendirir. Şeffaf bir sağlık hizmeti sunmak bizim önceliğimizdir.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+    <footer>
+        <p>© 2024 Mars Veteriner Kliniği. Tüm hakları saklıdır.</p>
+    </footer>
+    
+</body>
+</html>
